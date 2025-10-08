@@ -1,0 +1,89 @@
+
+:root{
+  --bg:#ffffff;
+  --card:#ffffff;
+  --accent:#2563eb;
+  --text:#1f2937;
+  --muted:#6b7280;
+  font-family:system-ui,sans-serif;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  background:#cbd7ee; 
+  color:#333333;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  padding:1rem;
+}
+
+.container{
+  background:var(--card);
+  padding:1.5rem;
+  border-radius:12px;
+  max-width:960px;
+  width:100%;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+  display:flex;
+  flex-direction:column;
+  gap:1.5rem;
+}
+
+.principal{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:1rem;
+}
+
+.info-dia h2{font-size:1.2rem;color:var(--muted)}
+.temperatura{font-size:2rem;font-weight:700}
+.estado{color:var(--muted);margin-top:.25rem}
+
+.imagen-dia img{
+  max-width:160px;
+  border-radius:8px;
+}
+
+.semana{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(120px,1fr));
+  gap:1rem;
+}
+
+.card{
+  background:#f9fafb;
+  border-radius:10px;
+  padding:.75rem;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  gap:.35rem;
+  border:2px solid transparent;
+}
+
+.card.active{
+  border-color:var(--accent);
+  background:#eef2ff;
+}
+
+.card h3{
+  font-size:.95rem;
+  color:var(--text);
+}
+
+.card small{font-size:.8rem;color:var(--muted)}
+
+.icono img{
+  width:48px;
+  height:48px;
+  object-fit:contain;
+}
+
+.prob{font-size:.85rem;color:var(--accent);}
+.temp{font-size:1rem;font-weight:600}
+.viento{font-size:.8rem;color:var(--muted)}
