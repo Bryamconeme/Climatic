@@ -584,6 +584,7 @@ No incluye animaciones, iconografía avanzada ni un diseño profesional completo
 *Optimizar la interfaz gráfica
 
 11. Conclusion
+    En conclusión, nuestro proyecto Climatic demuestra cómo una aplicación sencilla puede ayudar a las personas en su día a día. A través de datos básicos del clima, la app entrega recomendaciones claras sobre cómo vestirse o qué esperar según la temperatura y las condiciones del ambiente.
 
 
 
