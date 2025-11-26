@@ -1,5 +1,5 @@
 1. Introducción
-Climatic es una innovadora página web y aplicación móvil diseñada para transformar la manera en que las personas interactúan con el clima. Más que un simple pronóstico, Climatic ofrece una experiencia completa y personalizada al usuario, entregando datos meteorológicos en tiempo real con un alto nivel de detalle: temperatura actual, pronóstico extendido para los próximos 7 días, calidad del aire, humedad
+Climatic es una innovadora aplicación móvil diseñada para transformar la manera en que las personas interactúan con el clima. Más que un simple pronóstico, Climatic ofrece una experiencia completa y personalizada al usuario, entregando datos meteorológicos en tiempo real con un alto nivel de detalle: temperatura actual, pronóstico extendido para los próximos 7 días, calidad del aire, humedad
 Este informe detalla cada etapa exigida por la evaluación: problema, requisitos, diseño, arquitectura, implementación, pruebas, métricas, uso de IA y aprendizajes.
 
 2. Problema y Contexto
